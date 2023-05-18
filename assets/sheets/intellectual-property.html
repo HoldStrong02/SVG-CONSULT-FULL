@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/css/second.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+     <!-- Desktop -->
+    <!-- nav-desktop -->
+    <div w3-include-html="/assets/desktop-components/desktop-nav.html"></div>
+     <!-- Mobile -->
+    <!-- nav-mobile -->
+    <div w3-include-html="/assets/mobile-components/mobile-nav.html"></div>
+
+    <h2 class="shell primary_heading head-padding head-size">Интелектуакна Собственост</h2>
+
+    <div class="shell ul-section font-size">
+        <ul>
+            <li>Регистрация и защита на българска, европейска и международна търговска марка</li>
+            <li>Правна защита и съдействие относно художествена собственост в сферите на науката литературата и изкуството</li>
+            <li>Правни консултации във връзка с авторското право и сродните му права</li>
+            <li>Всеобхватна юрдическа помощ във връзка с промишлен дизайн</li>
+            <li>Юридическа подкрепа при създаване, използване и закрила на изобретения</li>
+            <li>Лицензионна търговия с обекти на индустриална и интелектуална собственост</li>
+            <li>Консултации относно географски обозначения</li>
+            <li>Проверки относно сходни елементи и характеристики на обекти на интелектуаланата собственост</li>
+            <li>Процесуално представителство пред компетентните съдилища, Патентно ведомство и пред всички релеванти институции относно интелектуалната собственост</li>
+        </ul>
+    </div>
+
+    <p class="par"></p>
+    <p class="par"></p>
+
+
+    <div class="shell div-back">
+        <a class="back" href="/index.html">Назад</a>
+    </div>
+    
+
+
+    <!-- footer-desktop -->
+    <div w3-include-html="/assets/desktop-components/desktop-footer.html"></div>
+
+    <!-- Mobile nav-footer --> 
+    <div w3-include-html="/assets/mobile-components/mobile-footer.html"></div>
+
+    <script src="/assets/js/include.js"></script>
+    <script src="/assets/js/onScroll.js"></script>
+    <script>
+        function menuOnClick() {
+        document.getElementById("menu-bar").classList.toggle("change");
+        document.getElementById("nav").classList.toggle("change");
+        document.getElementById("menu-bg").classList.toggle("change-bg");
+        } 
+    </script>
+</body>
+</html>

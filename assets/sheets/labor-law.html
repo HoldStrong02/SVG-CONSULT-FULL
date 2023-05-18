@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/css/second.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+     <!-- Desktop -->
+    <!-- nav-desktop -->
+    <div w3-include-html="/assets/desktop-components/desktop-nav.html"></div>
+     <!-- Mobile -->
+    <!-- nav-mobile -->
+    <div w3-include-html="/assets/mobile-components/mobile-nav.html"></div>
+
+    <h2 class="shell primary_heading head-padding head-size">Трудово Право</h2>
+
+    <div class="shell ul-section font-size">
+        <ul>
+            <li>Изготвяне на трудови договори и длъжностни характеристики.</li>
+            <li>Изготвяне на други документи във връзка с трудовото законодателство – документи по налагане на дисциплинарни наказания, уволнения, изплащане на обезщетения, правилници за вътрешен трудов ред и други.</li>
+            <li>Правни становища по всички видове трудовоправни въпроси:</li>
+            <li>Консултации на работници/служители във връзка с трудови спорове, искове срещу незаконно уволнение, възстановяване на работа, заплащане на дължими обезщетения, ползване на отпуск, неплатени възнаграждения и други.</li>
+            <li>Консултации на работодатели във връзка с реализирането на дисциплинарната и имуществената отговорност на работници/служители, полагане на извънреден труд, установяване на удължено/намалено работно време и други.</li>
+            <li>Съдействие при воденето на преговори между работодатели и работници/ служители и техните представители за извънсъдебно решаване на трудовите спорове.</li>
+            <li>Процесуално представителство пред съд по трудовоправни спорове във връзка с уволнения, обезщетения, неизплатени заплати и други.</li>
+        </ul>
+    </div>
+
+
+    <div class="shell div-back">
+        <a class="back" href="/index.html">Назад</a>
+    </div>
+    
+
+
+    <!-- footer-desktop -->
+    <div w3-include-html="/assets/desktop-components/desktop-footer.html"></div>
+
+    <!-- Mobile nav-footer --> 
+    <div w3-include-html="/assets/mobile-components/mobile-footer.html"></div>
+
+    <script src="/assets/js/include.js"></script>
+    <script src="/assets/js/onScroll.js"></script>
+    <script>
+        function menuOnClick() {
+        document.getElementById("menu-bar").classList.toggle("change");
+        document.getElementById("nav").classList.toggle("change");
+        document.getElementById("menu-bg").classList.toggle("change-bg");
+        } 
+    </script>
+</body>
+</html>

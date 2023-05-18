@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SvG Consult</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <!-- Desktop -->
+    <!-- nav-desktop -->
+    <div w3-include-html="/assets/desktop-components/desktop-nav.html"></div>
+
+     <!-- Mobile -->
+    <!-- nav-mobile -->
+    <div w3-include-html="/assets/mobile-components/mobile-nav.html"></div>
+
+    <!-- hero -->
+    <div w3-include-html="/assets/components/hero.html"></div>
+
+    <!-- service-desktop -->
+    <div w3-include-html="/assets/desktop-components/desktop-service.html"></div>
+
+     <!-- service-mobile -->
+     <div w3-include-html="/assets/mobile-components/mobile-service.html"></div>
+
+    <div class="justice shell">
+      <figure class="justice_img">
+        <img src="/assets/img/Justice-amico 1.png" alt="">
+      </figure>
+      <span class="justice_text">
+          SVG Consult e Адвокатска кантора, която предоставя широк спектър от правни услуги и консултации. Нашият екип има богат опит в работата с общини, държавни институции и корпоративни клиенти. Кантората разполага с едни от най-квалифицираните експерти по обществени поръчки в страната.
+      </span>
+    </div>
+
+    <!-- contact-form-desktop -->
+    <div w3-include-html="/assets/desktop-components/desktop-contanct-form.html"></div>
+
+    <!-- footer-desktop -->
+    <div w3-include-html="/assets/desktop-components/desktop-footer.html"></div>
+
+
+    <!-- contact-form-mobile --><div  class="contact-form-mobile">
+        <h2 class="contact-header" id="contact">Контакти</h2>
+  
+        <div class="contact-icons">
+  
+          <div class="icon">
+          <button class="btn-icon" onclick="toggle()" id="open"><img src="/assets/img/Vector.png" alt=""></button>
+          <div class="modal-container" id="modal_container">
+            <div class="modal">
+              <h5>Местоположение</h5>
+              <p><span>Град:</span> гр. София, ул. Ген. Георги Иванов 2А</p>
+              <button id="close" class="close">Затвори</button>
+            </div>
+          </div>
+          </div>
+  
+          <div class="icon">
+            <button class="btn-icon" id="open1"><img src="/assets/img/Vector (1).png" alt=""></button>
+            <div class="modal-container" id="modal_container1">
+              <div class="modal">
+                <h5>Телефон за връзка</h5>
+                <p><span>Телефон:</span>0887509812</p>
+                <button id="close1" class="close">Затвори</button>
+              </div>
+            </div>
+          </div>
+  
+          <div class="icon">
+            <button class="btn-icon" id="open2"><img src="/assets/img/Vector (2).png" alt=""></button>
+            <div class="modal-container" id="modal_container2">
+              <div class="modal">
+                <h5>Емайл за връзка</h5>
+                <p><span>Емайл:</span> svg.consults@gmail.com</p>
+                <button id="close2" class="close">Затвори</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <form class="form-mobile" action="">
+        <label for="">Свържете се с нас</label>
+        <input type="text" placeholder="Име и фамилия">
+        <input type="tel" placeholder="Телефон за връзка">
+        <input type="email" placeholder="Електронен адрес">
+        <input type="text" placeholder="Заглавие на съобщение">
+        <textarea placeholder="Съобщение"></textarea>
+        <input class="submit" type="submit" value="Изпращане">
+      </form>
+    
+    <!-- Mobile nav-footer --> 
+    <div w3-include-html="/assets/mobile-components/mobile-footer.html"></div>
+
+
+
+
+    <script src="/assets/js/include.js"></script>
+    <script src="/assets/js/main.js"></script>
+    <script src="/assets/js/onScroll.js"></script>
+    <script>
+        function menuOnClick() {
+        document.getElementById("menu-bar").classList.toggle("change");
+        document.getElementById("nav").classList.toggle("change");
+        document.getElementById("menu-bg").classList.toggle("change-bg");
+        } 
+    </script>
+</body>
+</html>

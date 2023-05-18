@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/css/second.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+     <!-- Desktop -->
+    <!-- nav-desktop -->
+    <div w3-include-html="/assets/desktop-components/desktop-nav.html"></div>
+     <!-- Mobile -->
+    <!-- nav-mobile -->
+    <div w3-include-html="/assets/mobile-components/mobile-nav.html"></div>
+
+    <h2 class="shell primary_heading head-padding head-size">Вещно Право</h2>
+
+    <div class="shell ul-section font-size">
+        <ul>
+            <li>Консултации във връзка с придобиването на недвижими имоти.</li>
+            <li>Промяна на предназначението на земеделски и горски имоти.</li>
+            <li>Учредяване на вещни тежести върху имоти – ипотеки, сертитути, право на ползване и преминаване и други.</li>
+            <li>Представително пред държавни и общински органи във връзка с недвижими имоти.</li>
+            <li>Съдебна и извънсъдебна делба на имоти.</li>
+            <li>Правни съвети относно етажна собственост.</li>
+            <li>Правни консултации по Закона за държавната и Закона за общинската собственост.</li>
+            <li>Процесуално представителство пред различните видове съдилища.</li>
+            <li>Предявяване и защита по собственически и владелчески дела.</li>
+            <li>Съдействие при изповядване на сделки пред нотариуси.</li>
+            <li>Подготовка на предварителни договори.</li>
+            <li>Помощ при отдаване под наем и изготвяне на съответните книжа.</li>
+        </ul>
+    </div>
+
+
+    <div class="shell div-back">
+        <a class="back" href="/index.html">Назад</a>
+    </div>
+    
+
+
+    <!-- footer-desktop -->
+    <div w3-include-html="/assets/desktop-components/desktop-footer.html"></div>
+
+    <!-- Mobile nav-footer --> 
+    <div w3-include-html="/assets/mobile-components/mobile-footer.html"></div>
+
+    <script src="/assets/js/include.js"></script>
+    <script src="/assets/js/onScroll.js"></script>
+    <script>
+        function menuOnClick() {
+        document.getElementById("menu-bar").classList.toggle("change");
+        document.getElementById("nav").classList.toggle("change");
+        document.getElementById("menu-bg").classList.toggle("change-bg");
+        } 
+    </script>
+</body>
+</html>

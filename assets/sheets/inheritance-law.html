@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/css/second.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+     <!-- Desktop -->
+    <!-- nav-desktop -->
+    <div w3-include-html="/assets/desktop-components/desktop-nav.html"></div>
+     <!-- Mobile -->
+    <!-- nav-mobile -->
+    <div w3-include-html="/assets/mobile-components/mobile-nav.html"></div>
+
+    <h2 class="shell primary_heading head-padding head-size">Наследствено Право</h2>
+
+    <p class="shell par font-size ">Предлагаме консултации, изготвяне на документи и явяване пред съд при:</p>
+
+    <div class="shell ul-section font-size">
+        <ul>
+            <li>Определяне на наследствени дялове;</li>
+            <li>Изясняване редът и правата при наследяване по закон;</li>
+            <li>Изясняване правата при наследяване по завещание;</li>
+            <li>Делба на наследствено имущество – съдебна и извънсъдебна.</li>
+            <li>Оспорване на завещание;</li>
+            <li>Приемане и отказ от наследство;</li>
+            <li>Доброволна и съдебна делба на наследство;</li>
+            <li>Дарение.</li>
+            <li>Договор за гледане и издръжка.</li>
+        </ul>
+    </div>
+
+
+    <div class="shell div-back">
+        <a class="back" href="/index.html">Назад</a>
+    </div>
+    
+
+
+    <!-- footer-desktop -->
+    <div w3-include-html="/assets/desktop-components/desktop-footer.html"></div>
+
+    <!-- Mobile nav-footer --> 
+    <div w3-include-html="/assets/mobile-components/mobile-footer.html"></div>
+
+    <script src="/assets/js/include.js"></script>
+    <script src="/assets/js/onScroll.js"></script>
+    <script>
+        function menuOnClick() {
+        document.getElementById("menu-bar").classList.toggle("change");
+        document.getElementById("nav").classList.toggle("change");
+        document.getElementById("menu-bg").classList.toggle("change-bg");
+        } 
+    </script>
+</body>
+</html>
